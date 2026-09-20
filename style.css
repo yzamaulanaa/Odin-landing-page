@@ -135,3 +135,28 @@ nav {
   color: rgb(100, 110, 130);
   font-size: 14px;
 }
+
+/* QUOTE SECTION */
+.quote {
+  background-color: rgb(220, 225, 235);
+  padding: 100px 0;
+}
+.quote-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.quote-text {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 300;
+  color: rgb(30, 35, 50);
+  line-height: 1.2;
+}
+.quote-author {
+  text-align: right;
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(30, 35, 50);
+  margin-top: 10px;
+}
+
