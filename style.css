@@ -63,3 +63,41 @@ nav {
 .links a {
   text-decoration: none;
 }
+
+/* HERO SECTION */
+.hero {
+  padding: 100px 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.hero-title {
+  color: white;
+}
