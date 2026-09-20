@@ -55,6 +55,7 @@ nav {
 .logo {
   font-size: 24px;
   font-weight: bold;
+  color: white;
 }
 .links {
   display: flex;
@@ -160,3 +161,37 @@ nav {
   margin-top: 10px;
 }
 
+/* CTA SECTION */
+.cta-section {
+  padding: 80px 0;
+}
+
+.cta-box {
+  background-color: rgb(80, 130, 200);
+  padding: 40px 80px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.cta-text h3 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.cta-text p {
+  color: rgb(220, 230, 250);
+  font-size: 16px;
+}
+
+.btn-cta {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+}
