@@ -1,14 +1,41 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif; /* Basic font for easy reading */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; /* Basic font for easy reading */
 }
 
 /* wrapper container so the content doesn't stick to the edge of the screen */
 
 .container {
-    max-width: 1000px;
-    margin: 0 auto; /* Make the container centered */
-    padding: 0 20px;
+  max-width: 1000px;
+  margin: 0 auto; /* Make the container centered */
+  padding: 0 20px;
+}
+
+/* COLOR SETTINGS */
+
+header,
+.hero,
+footer {
+  background-color: rgb(20, 24, 43);
+}
+
+.links a,
+.hero p,
+footer p {
+  color: rgb(180, 190, 210);
+  font-size: 18px;
+}
+
+.btn-hero,
+.btn-cta {
+  background-color: rgb(80, 130, 200);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
 }
