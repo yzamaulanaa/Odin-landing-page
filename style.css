@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; /* Basic font for easy reading */
+}
+
+/* wrapper container so the content doesn't stick to the edge of the screen */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto; /* Make the container centered */
+    padding: 0 20px;
+}
