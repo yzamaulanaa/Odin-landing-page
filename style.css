@@ -131,6 +131,7 @@ nav {
 .info-cards {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -191,6 +192,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
   box-shadow: 0 4px 20px rgba(80, 130, 200, 0.35); /* Subtle glow shadow */
 }
