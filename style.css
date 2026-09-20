@@ -39,3 +39,27 @@ footer p {
   font-weight: bold;
   cursor: pointer;
 }
+
+/*  HEADER (Navigation) */
+
+header {
+  padding: 20px 0;
+}
+/* Flexbox: Placing the logo on the left, links on the right */
+nav {
+  display: flex;
+  justify-content: space-between; /* Push elements to the left and right ends */
+  align-items: center; /* Membuat teks rata tengah secara vertikal */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.links {
+  display: flex;
+  gap: 20px; /* Spacing between links */
+}
+.links a {
+  text-decoration: none;
+}
