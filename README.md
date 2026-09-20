@@ -53,5 +53,3 @@ Through this project, I practiced:
 - [The Odin Project](https://www.theodinproject.com/) for the design inspiration and curriculum.
 
 ---
-
-_Happy Coding!_
